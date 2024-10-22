@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado con Acertijos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Ahorcado</h1>
+        <h2>realizado por:karen melisa 11B</h2>
+        <p id="palabra-secreta"></p>
+        <div id="letras-incorrectas"></div>
+        <p>Intentos restantes: <span id="intentos-restantes">6</span></p>
+        <p id="pista"></p> <!-- Aquí se mostrará la pista del acertijo -->
+        <input type="text" id="input-letra" maxlength="1" placeholder="Ingresa una letra">
+        <button id="btn-enviar">Enviar Letra</button>
+        <p id="mensaje"></p>
+        <button id="reiniciar">Reiniciar Juego</button>
+
+        <h2>Historial de partidas</h2>
+        <ul id="historial"></ul> <!-- Historial de partidas -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
